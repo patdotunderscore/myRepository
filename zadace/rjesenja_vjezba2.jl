@@ -10,7 +10,7 @@ k = 1/(4*pi*eps0);
 #broj točaka
 x_coordinates = rand(range(minX, maxX, length=N),20)
 y_coordinates = rand(range(minY, maxY, length=N),20)
-Qn = x_coordinates = rand(range(-20, +20, length=N),20)
+Qn = rand(range(-20, +20, length=N),20)
 # moramo zadati točke u kojima računamo električno polje pa radimo mrežu od N broja točaka u kojima ćemo to računati
 x=range(minX, maxX, length=N)
 y=range(minY, maxY, length=N)
